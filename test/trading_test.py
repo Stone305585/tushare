@@ -24,8 +24,7 @@ class Test(unittest.TestCase):
         print(fd.get_tick_data(self.code, self.end))
     
     def test_get_today_all(self):
-        print(fd.get_today_all()) 
-        
+        print(fd.get_today_all())
     def test_get_realtime_quotesa(self):
         self.set_data()
         print(fd.get_realtime_quotes(self.code)) 
